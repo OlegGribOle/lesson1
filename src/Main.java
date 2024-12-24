@@ -4,7 +4,7 @@ public class Main {
         Task.printThreeWords();
         Task.checkSumSign(5,-6);
         Task.printColor(101);
-
+        Task.compareNumbers();
     }
 
 
