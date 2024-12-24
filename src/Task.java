@@ -51,8 +51,15 @@ public class Task {
     }
 
     public static void copyString(String str, int copy) {
-        for (int i = 0; i <= copy; i++)
+        for (int i = 0; i < copy; i++)
             System.out.println(str);
+    }
+
+    public static boolean isLeapYear(){
+        int year = 2000;
+        if (year % 400 == 0 || (year % 4 ==0 && year % 100 !=0))
+            return true;
+        else return false;
     }
 
 }
