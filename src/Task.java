@@ -12,4 +12,15 @@ public class Task {
         } else
             System.out.println("Сумма отрицательнная");
     }
+
+    public static void printColor(int value){
+        if (value <= 0) {
+            System.out.println("Красный");
+        } else
+            if (0 < value && value <= 100) {
+                System.out.println("Желтый");
+            }
+              else
+                System.out.println("Зеленый");
+    }
 }
