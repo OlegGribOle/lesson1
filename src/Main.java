@@ -6,6 +6,9 @@ public class Main {
         Task.printColor(101);
         Task.compareNumbers();
         Task.betweenNumbers(5,5);
+        Task.numMoreLess(1);
+
+
     }
 
 

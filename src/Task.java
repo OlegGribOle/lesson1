@@ -38,7 +38,12 @@ public class Task {
         else System.out.println(false);
     }
 
+    public static void numMoreLess(int a) {
+        if (a < 0)
+            System.out.println("Число отрицательное");
+        else System.out.println("Число положительное");
 
+    }
 
 
 }
