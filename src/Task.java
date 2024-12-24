@@ -32,18 +32,24 @@ public class Task {
 
     }
 
-    public static void betweenNumbers(int a, int b) {
+    public static boolean betweenNumbers(int a, int b) {
         if (a + b >= 10 && a + b <= 20)
-            System.out.println(true);
-        else System.out.println(false);
+            return true;
+        else return false;
     }
 
     public static void numMoreLess(int a) {
         if (a < 0)
             System.out.println("Число отрицательное");
         else System.out.println("Число положительное");
-
     }
+
+    public static boolean boolNumMoreLess(int a) {
+        if (a < 0)
+            return true;
+        else return false;
+    }
+
 
 
 }

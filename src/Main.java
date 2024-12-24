@@ -5,8 +5,9 @@ public class Main {
         Task.checkSumSign(5,-6);
         Task.printColor(101);
         Task.compareNumbers();
-        Task.betweenNumbers(5,5);
+        System.out.println(Task.betweenNumbers(4,5));
         Task.numMoreLess(1);
+        System.out.println(Task.boolNumMoreLess(-1));
 
 
     }
