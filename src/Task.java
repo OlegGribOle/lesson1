@@ -27,8 +27,18 @@ public class Task {
         int b = 3;
         if (a >= b)
             System.out.println("a>=b");
-            else
+        else
             System.out.println("a<b");
 
     }
+
+    public static void betweenNumbers(int a, int b) {
+        if (a + b >= 10 && a + b <= 20)
+            System.out.println(true);
+        else System.out.println(false);
+    }
+
+
+
+
 }

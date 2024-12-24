@@ -5,6 +5,7 @@ public class Main {
         Task.checkSumSign(5,-6);
         Task.printColor(101);
         Task.compareNumbers();
+        Task.betweenNumbers(5,5);
     }
 
 
