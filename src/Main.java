@@ -8,7 +8,7 @@ public class Main {
         System.out.println(Task.betweenNumbers(4,5));
         Task.numMoreLess(1);
         System.out.println(Task.boolNumMoreLess(-1));
-
+        Task.copyString("Вы серьезно?",5);
 
     }
 

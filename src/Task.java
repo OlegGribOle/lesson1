@@ -50,6 +50,9 @@ public class Task {
         else return false;
     }
 
-
+    public static void copyString(String str, int copy) {
+        for (int i = 0; i <= copy; i++)
+            System.out.println(str);
+    }
 
 }
