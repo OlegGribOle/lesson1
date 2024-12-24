@@ -1,4 +1,4 @@
-public class Task1 {
+public class Task {
 
     public static void printThreeWords(){
         System.out.println("Orange");
@@ -6,9 +6,7 @@ public class Task1 {
         System.out.println("Apple");
     }
 
-    public void printThreeWords2(){
-        System.out.println("Orange");
-        System.out.println("Banana");
-        System.out.println("Apple");
+    public static void checkSumSign(int a, int b){
+
     }
 }
