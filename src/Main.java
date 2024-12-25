@@ -10,6 +10,10 @@ public class Main {
         System.out.println(Task.boolNumMoreLess(-1));
         Task.copyString("Вы серьезно?",2);
         System.out.println(Task.isLeapYear());
+        Task.rotateZeroOne();
+
+
+
     }
 
 
