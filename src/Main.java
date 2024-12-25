@@ -14,6 +14,7 @@ public class Main {
         Task.writeInArray();
         Task.doubleLessSix();
         Task.xSqadArray();
+        Task.createArray(5,7);
     }
 
 

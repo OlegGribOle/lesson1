@@ -99,14 +99,21 @@ public class Task {
         for (int i = 0; i < arr1.length; i++) {
             int[] arr2 = arr1[i];
             for (int j = 0; j < arr2.length; j++) {
-                if (i == j || (arr2.length-j == arr1.length-i))
+                if (i == j || (arr2.length - j == arr1.length - i))
                     arr2[j] = 1;
                 System.out.print(arr2[j] + " ");
             }
             System.out.println();
         }
+    }
 
-
+    public static void createArray(int len, int initialValue) {
+        int[] arr = new int[len];
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = initialValue;
+            System.out.print(arr[i]+" ");
+        }
+        System.out.println();
     }
 
 }
