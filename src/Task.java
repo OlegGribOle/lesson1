@@ -67,7 +67,15 @@ public class Task {
             else {
                 arr[i] = 1;
                 System.out.println(arr[i]); }
+        }
 
+    }
+
+    public static void writeInArray() {
+        int[] arr = new int[100];
+        for(int i=0; i < arr.length; i++) {
+            arr[i] = i+1;
+            System.out.print(arr[i]+" ");
         }
 
     }

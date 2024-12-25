@@ -11,6 +11,7 @@ public class Main {
         Task.copyString("Вы серьезно?",2);
         System.out.println(Task.isLeapYear());
         Task.rotateZeroOne();
+        Task.writeInArray();
 
 
 
