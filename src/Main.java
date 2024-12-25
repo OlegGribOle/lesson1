@@ -12,9 +12,8 @@ public class Main {
         System.out.println(Task.isLeapYear());
         Task.rotateZeroOne();
         Task.writeInArray();
-
-
-
+        Task.doubleLessSix();
+        Task.xSqadArray();
     }
 
 

@@ -60,25 +60,53 @@ public class Task {
 
     public static void rotateZeroOne() {
         int[] arr = {1, 1, 0, 1, 0, 1};
-        for (int i = 0; i < arr.length; i++){
+        for (int i = 0; i < arr.length; i++) {
             if (arr[i] == 1) {
                 arr[i] = 0;
-                System.out.println(arr[i]); }
-            else {
+                System.out.println(arr[i]);
+            } else {
                 arr[i] = 1;
-                System.out.println(arr[i]); }
+                System.out.println(arr[i]);
+            }
         }
 
     }
 
     public static void writeInArray() {
         int[] arr = new int[100];
-        for(int i=0; i < arr.length; i++) {
-            arr[i] = i+1;
-            System.out.print(arr[i]+" ");
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = i + 1;
+            System.out.print(arr[i] + " ");
         }
+        System.out.println();
 
     }
 
+    public static void doubleLessSix() {
+        int[] arr = {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] < 6) {
+                arr[i] = arr[i] * 2;
+                System.out.print(arr[i] + " ");
+            } else System.out.print(arr[i] + " ");
+        }
+        System.out.println();
+
+    }
+
+    public static void xSqadArray() {
+        int[][] arr1 = new int[5][5];
+        for (int i = 0; i < arr1.length; i++) {
+            int[] arr2 = arr1[i];
+            for (int j = 0; j < arr2.length; j++) {
+                if (i == j || (arr2.length-j == arr1.length-i))
+                    arr2[j] = 1;
+                System.out.print(arr2[j] + " ");
+            }
+            System.out.println();
+        }
+
+
+    }
 
 }
